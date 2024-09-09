@@ -6,4 +6,7 @@ public class ejericicio21 {
     sin usar funciones predefinidas.
      La raíz cuadrada de 49 es 7.
      */
+    public static void main(String[] args) {
+
+    }
 }

@@ -6,4 +6,7 @@ public class ejericicio24 {
      Un múltiplo de un número es el resultado de multiplicarlo
      por un entero.
      */
+    public static void main(String[] args) {
+
+    }
 }
