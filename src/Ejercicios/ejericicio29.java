@@ -8,14 +8,12 @@ public class ejericicio29 {
      */
     public static void main(String[] args) {
         double a= 64;
-        double b = Math.sqrt(a);
-        double c = b*b;
-        if(c==a){
+        double b = Math.sqrt(a); //raiz cuadrada... b = raiz cuadrada de a (64)
+        double c = b*b;         // c = b por b (8x8)
+        if(c==a){ //comparo si son iguales C = A?? --> (8x8) = 64
             System.out.println("Es cuadrado perfecto");
         } else {
             System.out.println("No es cuadrado perfecto");
         }
-
-
     }
 }
