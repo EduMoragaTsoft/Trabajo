@@ -16,7 +16,6 @@ exactamente a ambos números.
             b= a % temp;
             a = temp;
         }
-        System.out.printf(String.valueOf(a));;
-
+        System.out.printf(String.valueOf(a));
     }
 }
