@@ -7,6 +7,16 @@ public class ejericicio24 {
      por un entero.
      */
     public static void main(String[] args) {
-
+        int a = 3;
+        int b = 50;
+        int sumaImpares = 0;
+        // Calcular la suma de los números pares
+        System.out.println("Calculando la suma de los números impares entre " + a + " y " + b + "...");
+        for (int i = a; i <= b; i++) {
+            if (i % 2 != 0) {
+                sumaImpares += i;
+            }
+        }
+        System.out.println(sumaImpares);
     }
 }

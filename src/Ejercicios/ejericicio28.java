@@ -8,15 +8,15 @@ exactamente a ambos números.
  */
 
     public static void main(String[] args) {
-        double a= 64;
-        double b = Math.sqrt(a);
-        double c = b*b;
-        if(c==a){
-            System.out.println("Es cuadrado perfecto");
-        } else {
-            System.out.println("No es cuadrado perfecto");
+        int a =48;
+        int b = 18;
+        int temp = 0;
+        while (b != 0) {
+            temp = b;
+            b= a % temp;
+            a = temp;
         }
-
+        System.out.printf(String.valueOf(a));;
 
     }
 }
